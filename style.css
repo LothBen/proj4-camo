@@ -1,11 +1,13 @@
+a {
+    text-decoration: none;
+}
 /* HEADER 1 */
 
 .header-1 {
-    padding-right: 35px;
     position: fixed;
-    z-index: 1;
+    left: 8px;
+    right: 8px;
     margin: -8px;
-    display: flex;
     background-color: rgb(1, 49, 1);
 }
 .hr {
@@ -21,9 +23,7 @@
 .bcontainer-1 {
     border-bottom: 2px solid #ffcc01;
     display: flex;
-    margin: 0px 0px 0px;
-    justify-content: center;
-    gap: 349px;
+    justify-content: space-between;
 }
 .left-container-1 {
     margin-top: -7px;
@@ -66,7 +66,7 @@
     padding-top: 0px;
     gap: 22px;
     text-align: center;
-    justify-content: center;
+    justify-content: right;
     display: flex;
     margin-top: 0px;
 }
@@ -116,7 +116,6 @@
 }
 
 
-
 /* HEADER 2 */
 
 
@@ -134,16 +133,16 @@
     margin: 5px 50px 70px;
 }
 .first-middle {
-    gap: 3px;
     display: flex;
+    justify-content: space-between;
 }
 .left-container-2 {
     display: flex;
 }
 .left-main-img {
-    margin-top: 5px;
+    margin-top: 0px;
     height: 390px;
-    width: 630px;
+    width: 666px;
     background-image: url(images/soldier.jpg);
     background-size: cover;
     background-position: center, center;
@@ -158,9 +157,10 @@
     letter-spacing: 7px;
     word-spacing: 2px;
 }
+.parent-s-t {
+    margin: 296px 25px 0px;
+}
 .s-t {
-    position: relative;
-    bottom: -295px;
     display: flex;
     gap: 15px;
     margin: 0px 25px 0px;
@@ -193,13 +193,13 @@
 }
 
 .rtop-container {
-    margin-top: 1px;
+    margin-top: 0px;
     display: flex;
     gap: 5px;
 }
 .rbox1 {
     display: flex;
-    margin-top: 4px;
+    margin-top: 0px;
     height: 208px;
     width: 287px;
     background-image: url(images/jet.jpg);
@@ -242,7 +242,7 @@
 }
 .rbox2 {
     display: flex;
-    margin-top: 4px;
+    margin-top: 0px;
     height: 208px;
     width: 288px;
     background-image: url(images/jet2.jpg);
@@ -253,12 +253,11 @@
 .rbelow-box {
     margin-top: 2px;
     display: flex;
-    justify-content: center; gap: 10px;
+    justify-content: space-between;
 }
 .rb-below1 {
     width: 188px;
     height: 180px;
-    margin-left: 0px;
     background-image: url(images/insideplane.jpg);
     background-position: center, center;
     background-size: cover;
@@ -269,7 +268,6 @@
     background-image: url(images/navyship.jpg);
     background-position: center, center;
     background-size: cover;
-    margin-left: -8px;
 }
 .rb-below3 {
     height: 180px;
@@ -277,7 +275,6 @@
     background-image: url(images/airforce1.jpg);
     background-position: center;
     background-size: cover;
-    margin-left: -8px;
 }
 .sp-light {
     color: white;
@@ -301,39 +298,35 @@
 }
 
 .one-ul {
+    margin-top: 108px;
     color: white;
     list-style: none;
-    margin-left: -25px;
-    position: relative;
-    bottom: -90px;
+    padding-left: 20px;
     font-size: 19px;
     letter-spacing: 1.5px;
     font-weight: 700;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .one-ul2 {
+    margin-top: 108px;
     color: white;
     list-style: none;
-    position: relative;
-    bottom: -90px;
-    margin-left: -20px;
+    padding-left: 20px;
     font-size: 19px;
     letter-spacing: 1.5px;
     font-weight: 700;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .one-ul3 {
+    margin-top: 108px;
     color: white;
     list-style: none;
-    position: relative;
-    bottom: -90px;
-    margin-left: -25px;
+    padding-left: 20px;
     font-size: 19px;
     letter-spacing: 1.5px;
     font-weight: 700;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
 
 
 /* HEADER 3 */
@@ -558,3 +551,18 @@
     justify-content: center;
     align-self: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
