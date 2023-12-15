@@ -212,7 +212,7 @@ a {
     font-weight: 700;
     color: white;
     font-size: 15px;
-    margin-top: -2px;
+    margin-top: 0px;
     letter-spacing: 4px;
 }
 .f-v::after {
@@ -229,7 +229,7 @@ a {
     font-weight: 700;
     color: black;
     font-size: 15px;
-    margin-top: -2px;
+    margin-top: 0px;
     letter-spacing: 4px;
 }
 .f-p::after {
